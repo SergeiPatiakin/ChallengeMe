@@ -1,0 +1,22 @@
+{
+    "extends": [
+      "tslint:latest",
+      "tslint-config-prettier"
+    ],
+    "rules": {
+      "no-console": [true, "log"],
+      "object-literal-sort-keys": false,
+      "import-sources-order": false,
+      "ordered-imports": true,
+      "interface-name": [true, "never-prefix"],
+      "no-submodule-imports": false,
+      "variable-name": false,
+      "no-var-requires": false,
+      "no-unused-vars": false,
+      "only-arrow-functions": false,
+      "no-empty": false,
+      "prefer-conditional-expression": false,
+      "no-implicit-dependencies": [true, "dev"]
+    }
+  }
+  

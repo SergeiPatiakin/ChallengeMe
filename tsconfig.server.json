@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "production-server/"
+    },
+    "include": [
+      "server/**/*.ts", 
+      "common/**/*.ts",
+      "tests/**/*.ts",
+      "utils/**/*.ts"
+    ]
+  }
