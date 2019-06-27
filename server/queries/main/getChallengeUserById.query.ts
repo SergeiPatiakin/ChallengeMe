@@ -4,12 +4,11 @@
 import { buildQueryWithUniqueResult } from '../queryHelper'
 
 export interface Arguments {
-  a: number
-  b: number
+  id: string
 }
 
 export interface Result {
-  result: number
+  challengeId: string
 }
 
-export const addNumbers = buildQueryWithUniqueResult<Arguments, Result>(__filename)
+export const getChallengeUserById = buildQueryWithUniqueResult<Arguments, Result>(__filename)

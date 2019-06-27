@@ -5,12 +5,7 @@ module.exports = {
   preset: 'ts-jest',
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
-    // '**/tests/**/*.tsx': 'ts-jest',
   },
-  // testRegex: '(/tests/**/.*|(\\.|/)(test|spec))\\.tsx?$',
-  // transformIgnorePatterns: ['<rootDir>/tests/frontend/components/'],
-  // testEnvironment: '',
-  // moduleFileExtensions: ['js', 'jsx', 'json', 'ts', 'tsx'],
   collectCoverageFrom: [
     '**/admin-components/**/*.{ts,tsx}',
     '**/common/**/*.{ts,tsx}',

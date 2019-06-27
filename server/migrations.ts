@@ -3,7 +3,7 @@ import Postgrator from 'postgrator'
 import { db } from './conf'
 
 const migrationsFolder = path.join(__dirname, '..', 'db', 'migrations')
-const latestMigrationVersion = '1'
+const latestMigrationVersion = '3'
 
 export default function migrate(): Promise<any> {
   const postgrator = new Postgrator({

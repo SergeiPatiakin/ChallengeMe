@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const queryTsTempate = fs.readFileSync(path.join(__dirname, 'server', 'service', 'query.ts.template'), 'utf8')
+const queryTsTempate = fs.readFileSync(path.join(__dirname, 'server', 'queries', 'query.ts.template'), 'utf8')
 const codegenWarning = '// WARNING: THIS CODE IS AUTO-GENERATED. ANY MANUAL EDITS WILL BE OVERWRITTEN WITHOUT WARNING\n'
 
 function getQueryTs(queryName, argumentFields, resultFields, helperFunction, extraImports, extendResultString, extendArgString) {
@@ -41,7 +41,7 @@ function writeIfChanged(filePath, fileContents) {
   console.info(`codegen: wrote ${filePath}`)
 }
 
-const rootDir = path.join(__dirname, 'server', 'service')
+const rootDir = path.join(__dirname, 'server', 'queries')
 
 fs.readdirSync(rootDir).forEach(dirItem => {
   dirItemAbs = path.join(rootDir, dirItem)

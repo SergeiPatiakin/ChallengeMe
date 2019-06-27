@@ -29,7 +29,7 @@ function buildQuery<Args, Result>(queryTsFile: string): ((args: Args) => Promise
       const results: Result[] = response.rows.map(row => camelCaseFields<Result>(row))
       return results
     } catch (exc) {
-      // logger.error(queryTsFile, exc, args)
+      console.error(queryTsFile, exc, args)
       return []
     }
   }

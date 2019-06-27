@@ -1,6 +1,6 @@
 {
     "watch": ["server/**/*.ts", "server/**/*.sql", "db/**/*.sql"],
-    "ignore": ["server/service/**/*.ts"],
+    "ignore": ["server/queries/**/*.ts"],
     "execMap": {
       "ts": "npm run codegen && ts-node --project tsconfig.server.json"
     },

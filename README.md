@@ -1,3 +1,8 @@
+## Description
+ChallengeMe is an app for tracking 
+
+## Setup
+
 - Create database and user
   - `$ createuser chmeapp_user`
   - `$ createdb --owner=chmeapp_user`

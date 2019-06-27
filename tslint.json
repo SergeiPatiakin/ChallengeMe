@@ -16,7 +16,8 @@
       "only-arrow-functions": false,
       "no-empty": false,
       "prefer-conditional-expression": false,
-      "no-implicit-dependencies": [true, "dev"]
+      "no-implicit-dependencies": [true, "dev"],
+      "no-empty-interface": false
     }
   }
   

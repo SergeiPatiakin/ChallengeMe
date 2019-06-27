@@ -1,5 +1,10 @@
-import { StatusComponent } from '../components/StatusComponent'
+import AppContainer from '../components/AppContainer'
+import { NewsItemList } from '../components/NewsItemList'
 
-const Index = () => <StatusComponent />
-
-export default Index
+export default () => {
+  return (
+    <AppContainer titleParts={['Newsfeed']}>
+      <NewsItemList />
+    </AppContainer>
+  )
+}

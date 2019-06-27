@@ -15,8 +15,9 @@ export default class AppDocument extends Document<{ styleTags: any }> {
       <html>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" type="image/png" href="https://somecdn.example.com/icon-32x32.png" sizes="32x32" />
-          <link rel="icon" type="image/png" href="https://somecdn.example.com/icon-16x16.png" sizes="16x16" />
+          <link rel="icon" type="image/png" href="/static/owl-icon-32x32.png" sizes="32x32" />
+          <link rel="icon" type="image/png" href="/static/owl-icon-16x16.png" sizes="16x16" />
+          <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet" />
           <style>{`
                 html, body { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
