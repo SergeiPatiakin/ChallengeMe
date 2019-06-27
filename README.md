@@ -1,5 +1,5 @@
 ## Description
-ChallengeMe is an app for tracking 
+ChallengeMe allows you to create challenges which you work on day-by-day or week-by-week. It allows you to track progress, invite friends and see their performance.
 
 ## Setup
 
