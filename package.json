@@ -65,7 +65,7 @@
     "io-ts-reporters": "0.0.21",
     "jsonwebtoken": "^8.3.0",
     "lodash.camelcase": "4.3.0",
-    "moment": "2.22.2",
+    "moment": "2.29.2",
     "moment-timezone": "0.5.23",
     "next": "7.0.2",
     "next-images": "1.0.1",
