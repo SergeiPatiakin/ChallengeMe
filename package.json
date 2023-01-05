@@ -67,7 +67,7 @@
     "lodash.camelcase": "4.3.0",
     "moment": "2.22.2",
     "moment-timezone": "0.5.23",
-    "next": "7.0.2",
+    "next": "13.1.1",
     "next-images": "1.0.1",
     "nodemon": "1.18.8",
     "passport": "^0.4.0",
@@ -94,7 +94,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.7",
     "copyfiles": "2.1.0",
-    "jest": "23.6.0",
+    "jest": "29.3.1",
     "jest-dom": "2.1.1",
     "jest-styled-components": "6.3.1",
     "lint-staged": "7.3.0",
